@@ -1,4 +1,5 @@
 # Autonomous Vehicle Accidents
+## Summary
 The project focuses on analyzing autonomous vehicle accidents and proposing a human–engineering solution to the problems identified in the data. The analysis was based on a comprehensive dataset from California, including 646 accidents between 2019–2024. The data was cleaned and reduced to 57 key variables, analyzed using Python, and managed via GitHub. Findings revealed that autonomous vehicle accidents occur at higher rates than conventional ones at night and in early morning hours, mainly at intersections and certain geographic hotspots.
 
 The main issues identified involve limitations in nighttime detection, intersection complexity, the influence of weekdays, weather conditions, geographic accident clusters, and interactions between human and autonomous drivers. The project focuses on one key problem: the high frequency of autonomous vehicle accidents in high-risk situations — night, intersections, and specific locations. Recent studies support these findings, showing that autonomous vehicles particularly struggle under these conditions.

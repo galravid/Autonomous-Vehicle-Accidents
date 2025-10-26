@@ -147,5 +147,130 @@ In this system, the driver is presented with a navigation map and three clear op
 - **Mode 3 – Take Control:** A prominent red indicator is displayed, accompanied by a stronger auditory alert and intense vibration (if technology permits). The driver has 15 seconds to respond; otherwise, the vehicle initiates a safe stop procedure.
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/d943c919-2edd-4e67-900c-1d4a79bb1fe2" />
 
+The prototype uses machine learning and smart risk-prediction models. The system collects historical data on accidents, traffic peak hours, and road conditions, and uses it to predict high-risk situations. This enables real-time adaptation between modes and alerts the driver exactly when necessary. Additionally, the system can integrate real-time analysis of traffic patterns, identification of geographic risk hotspots, and prediction of other vehicles' behavior on the road.
+
+The uniqueness of the solution lies in its combination of multiple interfaces (visual, auditory, and haptic) – so that if the driver misses one type of alert, the others reinforce it, ensuring a response. This creates a comprehensive solution adapted to different users and varied driving conditions.
+
+### Reasons Behind the Solution
+The solution was proposed following data analysis showing that autonomous vehicle accidents occur more frequently in high-risk conditions – night hours (21:00–7:00), intersections, and known accident hotspots. Advanced autonomous systems sometimes struggle to identify complex situations, such as low-light conditions at night and intersections. Additionally, there is a gap between technology capabilities and driver/public trust. Therefore, a solution was needed that balances full autonomous control with human involvement, based on a graded alert mechanism allowing stepwise response according to risk level.
+
+### Advantages of the Solution
+1. **Improved Safety:** Combining real-time risk analysis with driver involvement helps reduce accidents in situations where autonomous systems are less effective.  
+2. **Public Trust:** Partial or full driver control in risky scenarios increases confidence in the autonomous system.  
+3. **Multi-sensory Interface:** Visual, auditory, and haptic alerts increase the likelihood of driver recognition and timely response.  
+4. **Personalization:** Machine learning allows continuous improvement based on new accident and road condition data.  
+5. **Gradual Solution:** The system does not force immediate driver intervention but provides stepwise alerts, reducing stress and anxiety.
+
+### Disadvantages of the Solution
+1. **Alert Fatigue:** Drivers may become accustomed to frequent alerts and ignore them, especially if perceived as excessive.  
+2. **Driver Dependence:** The solution requires the driver to be alert and capable of taking control, which may not always be the case (e.g., tired, distracted, or inexperienced drivers).  
+3. **Technical Complexity:** Integrating environmental data, machine learning, and multi-sensory interfaces requires complex and costly development, with rigorous safety testing.  
+4. **Accessibility Limitations:** Not all users may respond well to auditory or haptic alerts (e.g., people with hearing or reading impairments).  
+5. **Unforeseen Situations:** New scenarios may arise where the system is not properly programmed, potentially causing decision errors.
+
+## User Study – Experiment Summary
+
+### Experiment Goal
+To evaluate how the three-state system (Normal / Adaptive / Take Control) improves safety, driver response, and trust in autonomous vehicles compared to a control condition (no system or basic alert system), and to examine the impact of risk scenarios (night, intersections, accident hotspots) on performance metrics and user preferences.
+
+### Research Questions & Hypotheses
+1. Does the system reduce the rate of failures (no response/failure to take control on time) compared to control?  
+   **Hypothesis:** Lower failure rate with the system.
+2. Does the average driver takeover time decrease with multi-sensory alerts (visual + auditory + haptic) compared to a single alert type?  
+   **Hypothesis:** Shorter response time with multi-sensory interface.
+3. Do users report higher perceived safety and trust after using the system?  
+   **Hypothesis:** Higher trust scores for the system.
+4. Are there differences in performance across scenarios (night/intersection/hotspot), and how does the system mitigate these effects?  
+   **Hypothesis:** The system reduces performance decline in high-risk scenarios.
+
+### Methodology
+- **Within-subjects design:** Each participant experiences two main conditions:
+  - Condition A – Control (standard autonomous driving, no system/basic alerts)
+  - Condition B – Three-state system  
+  Within each condition: 4 scenarios (Normal, Night, Intersection, Accident Hotspot)  
+  **Counterbalancing:** The order of blocks and scenarios is randomized to prevent order effects.
+
+### Sample & Recruitment
+- Sample size: N = 30–40 participants  
+- Age: 20–65, varying driving experience  
+- Includes experienced autonomous vehicle users if possible  
+- Recruitment: Online advertisements, campus postings, driver lists, symbolic compensation  
+- Inclusion criteria: No untreated vision/hearing impairments, no medication affecting alertness
+
+### Environment & Safety
+- Phase 1: Advanced driving simulator (risk-free, repeatable scenarios, full data logging)  
+- Phase 2 (optional): Closed-track testing with a backup driver  
+- All experiments conducted with ethical approval and safety procedures
+
+### Materials & Prototype
+- Visual interface on vehicle display (icons/colors for states 1–3)  
+- Audio module: short recorded alerts  
+- Haptic feedback: clear state indication  
+- Logging module: timestamps, takeover requests, driver actions, speed, location  
+- Self-report questionnaires: SUS, adapted trust survey, NASA-TLX, alert acceptability survey
+
+### Experimental Protocol
+1. General explanation, informed consent, privacy policy  
+2. Background questionnaire: age, driving experience, autonomous vehicle experience, night driving habits  
+3. Short training on simulator and system (10–15 min), demonstrating states 1–3  
+4. Experimental runs: each participant completes two blocks (Control / System) – each block includes 4 scenarios (Normal, Night, Intersection, Accident Hotspot). System alerts or requests takeover according to rules (1=Normal, 2=Adaptive, 3=Take Control). Control block: no intervention or basic alert only.  
+5. During each run, measure: time-to-takeover, takeover success rate, number of alerts, lane deviation, average speed, emergency braking, etc.  
+6. After each block: questionnaires on perceived safety and workload. After all runs: trust scale, SUS, semi-structured interview.  
+7. Debrief and completion.
+
+### Primary and Secondary Metrics
+
+**Quantitative (Objective) Metrics:**  
+- Time-to-takeover (ms/sec) – time from alert to driver action (steering, braking, acceleration).  
+- Takeover rate – percentage of successful driver takeovers within 15 seconds.  
+- Emergency stop / autonomous mode lock rating.  
+- Driving performance: average lane deviation, average speed, number of emergency brakes.  
+- Frequency of unnecessary alerts.
+
+**Subjective Metrics:**  
+- Trust in the system.  
+- Perceived safety.  
+- Mental workload.  
+- Interface satisfaction.  
+- Alert acceptability (annoying/helpful).
+
+**Qualitative Metrics:**  
+- Semi-structured interview responses: likes, dislikes, improvement ideas, unclear experiences.
+
+### Data Analysis and Statistical Methods
+- Preliminary checks: distribution analysis, outlier detection, handling missing values, exclusion of invalid runs.  
+- Comparison between control and system using ANOVA for continuous metrics or t-tests for two-condition comparisons.  
+- Scenario effect (Normal / Night / Intersection / Accident Hotspot) tested via two-way ANOVA.  
+- For rate/categorical metrics (takeover rate): χ² test.  
+- Qualitative analysis: coding, thematic analysis to identify recurring interface issues.
+
+### Success Criteria
+- Significant reduction in failures/emergency stops with the system compared to control (p < 0.05).  
+- Average response time reduced by ≥20% with multi-sensory alerts versus control.  
+- Increase in average trust score by at least 1 point on a 7-point Likert scale.  
+- ≥80% successful takeover rate when the system requests driver intervention.
+
+### Ethical and Safety Considerations
+- Informed consent and ability to withdraw at any time.  
+- Simulator preferred to avoid physical risk; for real vehicle testing – backup driver, safety team, and regulatory approval required.  
+- Privacy protection: anonymization of participants.  
+- Careful handling of sensitive data (video/audio) only with explicit consent.
+
+### Pilot and Iterative Learning
+- Conduct pilot with 5–8 participants to fine-tune: alert text, alert timing, 15-second intervals.  
+- Adjust system thresholds and reduce false alarms based on pilot results.
+
+### Timeline (Summary)
+- Simulator prototype development: 2–4 weeks.  
+- Pilot testing and adjustments: 1–2 weeks.  
+- Data collection (N=30–40): several weeks, coordinated with test sessions.  
+- Data analysis and report preparation: 2–3 weeks.
+
+### Expected Deliverables
+- Quantitative reports: graphs of time-to-takeover, takeover rate per scenario.  
+- Interface design recommendations (what works, what doesn’t).  
+- Engineering/integration adjustments before field pilot.  
+- Policy/infrastructure suggestions if study identifies systemic issues.
+
 
 

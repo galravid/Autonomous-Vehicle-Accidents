@@ -63,4 +63,50 @@ The problem we chose to focus on, which we believe can be addressed, is the high
 According to course learnings, solutions to this problem can be found through the integration of human factors and user experience approaches. <br>
 Recent studies support the findings from our data, indicating that autonomous vehicles struggle especially under night conditions and at intersections. For example, a study published in [*Nature Communications*](https://www.nature.com/articles/s41467-024-48526-4) in 2024 found that vehicles equipped with autonomous driving systems had a higher rate of accidents during nighttime and while driving through intersections. The study highlights that visibility limitations, difficulty in detecting other road users (such as pedestrians and cyclists), and multiple interactions at intersections increase the likelihood of system errors and unexpected autonomous vehicle responses. This finding reinforces the claim that these situations are vulnerabilities that require targeted solutions.
 
+## User Research
+
+### Defining the Target Population for the Problem
+
+The target population for the proposed solution is broad and includes several key groups of road users, each affected differently by the phenomenon of autonomous vehicle accidents in high-risk situations.  
+
+The first and primary group is drivers and passengers in autonomous vehicles. These are the direct users of the technology, experiencing the risks of accidents at intersections, during nighttime hours, and in geographic hotspots. For them, the solution will improve both physical safety and the sense of security when using autonomous technology—a necessary condition for widespread adoption.  
+
+Another group includes pedestrians and cyclists, who are particularly vulnerable in the transportation system. In intersections and dense urban areas, the risk of injury is high, especially when autonomous vehicles struggle to detect or predict their movements. Therefore, any solution that reduces the number of accidents will enhance the protection of this population and contribute to a safer urban environment.  
+
+Additionally, conventional vehicle drivers are part of the target population. In the current traffic reality, autonomous and conventional vehicles share the road, so any accident involving an autonomous vehicle can also endanger human drivers. Improving the performance of autonomous vehicles in complex situations will reduce risk for these drivers as well, thereby fostering trust between road users and autonomous vehicles.  
+
+Beyond individual users, the broader population and the transportation system as a whole are also stakeholders. As the number of autonomous vehicles on the road increases, unaddressed safety issues can affect traffic congestion, public trust in the technology, and the economic impact of road accidents. While this population is not direct users, it benefits indirectly from reduced accidents and increased efficiency in the transportation system.  
+
+In this way, the target population is multi-layered: from autonomous vehicle passengers to pedestrians, cyclists, human drivers, and society as a whole. This underscores the need for a holistic human-engineering solution that considers the diverse users and their interactions.
+
+### Defining the Solution Goal
+The goal of the solution is to improve the safety of autonomous vehicles in high-risk situations by intelligently combining autonomous driving capabilities with human involvement. The solution aims to reduce accidents at intersections, during nighttime hours, and in geographic hotspots, while ensuring the safety of passengers and pedestrians and enhancing user confidence and trust in autonomous technology.
+
+### The Main Problem It Solves
+The primary problem addressed by the system is the high number of autonomous vehicle accidents under conditions where autonomous driving systems struggle to cope—nighttime, complex intersections, and areas with a history of accidents. This issue is reflected in relatively higher accident rates compared to conventional vehicles and constitutes a significant barrier to widespread adoption of autonomous vehicles.
+
+### Defining Solution Success
+The solution will be considered successful if it reduces the accident rate in high-risk situations, increases driver alertness in critical conditions, and enhances the sense of security for road users in autonomous vehicles. Success metrics include a reduction of over 30% in accidents at intersections and during nighttime compared to historical data, reduced driver reaction time when intervention is required, and 80% of autonomous vehicle drivers responding promptly to system alerts.
+
+### Relevant Scenarios
+The system is particularly relevant for three key scenarios: driving during high-risk hours (21:00–7:00) when accident rates are higher for autonomous vehicles; traveling on roads with intersections that serve as high-risk points; and navigating geographic areas with a history of multiple accidents. Additionally, when two or more of these scenarios occur simultaneously, the system becomes especially critical, requiring immediate driver intervention to prevent an accident.
+
+
+### Defining Personas within the Target Population
+
+#### We define three key personas representing the users:
+
+**1. Noa – Autonomous Vehicle Owner**, age 28, engineering student, lives in California. Motivation: Travel safely without driving. Concerns: Accidents at intersections at night, uncertainty when the vehicle "gets confused". Needs: A system that provides transparency ("safety gauge") and a sense of control.  
+
+**2. Dani – Private Vehicle Driver (Non-Autonomous)**, age 45, high-tech professional, commutes daily. Motivation: Maintain road safety even alongside autonomous vehicles. Concerns: Autonomous vehicle making unexpected maneuvers at intersections. Needs: A system that detects dangerous situations and slows the autonomous vehicle to avoid surprising other drivers.  
+
+**3. Sarit – Autonomous Transportation Developer**, age 36, works in the R&D center of an autonomous vehicle fleet. Motivation: Ensure service reliability and reduce accidents. Concerns: The system may not provide early enough alerts in unusual situations. Needs: Clear risk alerts and guidance for the vehicle driver.
+
+### Interviews with Three Users Representing the Personas
+
+**1. Erez Or – Owner of a Level 2 Autonomous Vehicle (MG4)**, age 22, lives in Tel Aviv, primarily drives in the central area for commuting to work. Sometimes finishes work late and would have to drive tired if not for the autonomous mode. Travels to his parents in the north on weekends.  
+
+**2. Ido Ravid – Owner of a private (non-autonomous) vehicle**, age 26, lives in Melbourne, Australia, works in construction. Drives daily at 4:00 AM to the construction site. Most driving occurs within the city, an area with multiple intersections and a high concentration of accidents.  
+
+**3. Nir Kahan – Vehicle designer** with 25 years of experience, lives in central Israel.
 

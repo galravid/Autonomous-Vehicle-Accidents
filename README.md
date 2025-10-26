@@ -29,3 +29,32 @@ We managed the code through **GitHub**, a **version control** and **collaborativ
 
 The combination of **Python** and **GitHub** provided a major advantage: powerful and efficient analytical capabilities alongside a **professional, collaborative work environment**. This approach allowed us to perform the required analyses **reliably, transparently, and accurately**, maintaining high standards of **research quality**.
 
+## Problem Identification
+
+### Defining the Issues to Investigate
+
+#### 1. Different Accident Rates by Time of Day  
+Analysis shows that autonomous vehicles experience accidents during off-peak hours, mainly between 21:00 and 7:00, while conventional vehicle accidents are lower during these hours. This indicates that autonomous driving systems may face difficulties under low-light conditions or low vehicle activity. Human factors research can focus on improving vehicle sensing and response during these hours, as well as driver experience when transitioning between different lighting and traffic conditions.
+
+#### 2. Impact of Road Type on Accidents  
+Analysis of road types shows that intersections are a high-risk area for autonomous vehicles, with 259 accidents compared to 177 accidents in conventional vehicles. Narrow roads show relatively fewer accidents in both vehicle types. This raises questions about adapting autonomous systems to intersection complexity, the need for clearer road markings, and examining road design to reduce risks. Researching these aspects in UX can improve driving experience and safety.
+
+#### 3. Impact of Day of the Week on Accidents  
+Comparison across days shows that autonomous vehicle accidents remain high on weekends, while conventional vehicle accidents decrease. This indicates a gap between traffic patterns of autonomous versus conventional vehicles. Research could examine how autonomous systems adapt to weekly traffic changes and how user experience could include alerts or route adjustments depending on the day.
+
+#### 4. Impact of Weather Conditions  
+Although most accidents occurred in clear weather, this may be influenced by the local climate. A research issue involves the ability of autonomous systems to handle varying weather conditions, including daylight, low visibility, or rain. Studying system behavior in these conditions and providing clear information to the driver can improve user experience and safety.
+
+#### 5. Geographic Risk Hotspots  
+Mapping accidents by location identifies areas with a high concentration of accidents, which are risk hotspots. This allows research on user experience in navigation systems, where real-time alerts or alternative routes can reduce the risk of accidents for both autonomous vehicles and human drivers.
+
+#### 6. Gaps Between Human and Autonomous Driving  
+Differences in accident rates between autonomous and conventional vehicles highlight the need to understand interactions between human drivers and autonomous vehicles in mixed environments. Studying differences in driving patterns and responses to autonomous vehicles can lead to improved user interfaces, alerts, and feedback systems that help drivers understand vehicle status and surroundings.
+
+#### 7. Differences in Risk Perception  
+Differences between autonomous and conventional vehicles indicate a gap in risk perception and response by drivers or the autonomous system. UX research can focus on designing systems that provide intuitive and clear information about potential risks and user interface elements that improve real-time decision-making, especially in dangerous or unexpected situations.
+
+#### 8. Differences Among Autonomous Vehicle Types  
+Data shows that different autonomous vehicle types are involved in varying numbers of accidents. This raises a human factors and UX question: are these differences due to interface design and human-system interaction? Features such as information presentation, alert design, level of autonomy, and need for human intervention may affect driver engagement and accident prevention. This points to an issue for investigation: how does the design of the user interface and driving experience in autonomous vehicles actually influence accident rates?
+
+

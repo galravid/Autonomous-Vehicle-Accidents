@@ -60,7 +60,7 @@ Data shows that different autonomous vehicle types are involved in varying numbe
 ## Problem Selection
 
 The problem we chose to focus on, which we believe can be addressed, is the high number of accidents involving autonomous vehicles in high-risk situations. Data shows that autonomous vehicles are more likely to be involved in accidents during night and early morning hours (21:00–7:00), in complex areas such as intersections, and at geographic hotspots with a high concentration of accidents. These situations are particularly challenging for autonomous systems due to visibility limitations, multiple interactions with other road users (at intersections), or local environmental complexities. <br>
-According to course learnings, solutions to this problem can be found through the integration of human factors and user experience approaches. <br>  
+According to course learnings, solutions to this problem can be found through the integration of human factors and user experience approaches. <br>
 Recent studies support the findings from our data, indicating that autonomous vehicles struggle especially under night conditions and at intersections. For example, a study published in *Nature Communications* in 2024 found that vehicles equipped with autonomous driving systems had a higher rate of accidents during nighttime and while driving through intersections. The study highlights that visibility limitations, difficulty in detecting other road users (such as pedestrians and cyclists), and multiple interactions at intersections increase the likelihood of system errors and unexpected autonomous vehicle responses. This finding reinforces the claim that these situations are vulnerabilities that require targeted solutions.
 
 

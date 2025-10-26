@@ -141,10 +141,10 @@ Following our research, our proposed solution includes a prototype built using t
 In this system, the driver is presented with a navigation map and three clear operational modes according to the level of risk:
 
 - **Mode 1 – Normal:** A simple green visual indicator shows that the vehicle is operating in full autonomous mode.
-- **Mode 2 – Adaptive:** An orange indicator appears along with a short auditory alert, signaling the driver to be more attentive due to potential risks (night hours, accident hotspots, intersections). Haptic feedback is also provided to ensure the driver understands the need for increased alertness.
-- **Mode 3 – Take Control:** A prominent red indicator is displayed, accompanied by a stronger auditory alert and intense vibration (if technology permits). The driver has 15 seconds to respond; otherwise, the vehicle initiates a safe stop procedure.
 - <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/58701d43-c566-461f-945e-0b300b3e1691" />
-<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/ce5089be-52bf-4daf-ba88-2eed26abfa3f" />
+- **Mode 2 – Adaptive:** An orange indicator appears along with a short auditory alert, signaling the driver to be more attentive due to potential risks (night hours, accident hotspots, intersections). Haptic feedback is also provided to ensure the driver understands the need for increased alertness.
+- <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/ce5089be-52bf-4daf-ba88-2eed26abfa3f" />
+- **Mode 3 – Take Control:** A prominent red indicator is displayed, accompanied by a stronger auditory alert and intense vibration (if technology permits). The driver has 15 seconds to respond; otherwise, the vehicle initiates a safe stop procedure.
 <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/d943c919-2edd-4e67-900c-1d4a79bb1fe2" />
 
 

@@ -12,3 +12,20 @@ To evaluate the solution, a driving simulator experiment (bonus stage) is propos
 
 In conclusion, the project integrates empirical data analysis, user research, and innovative prototype development to reduce autonomous vehicle accidents in high-risk conditions and enhance user experience in advanced driving systems.
 
+
+## Data Understanding  
+
+The rapid advancement of **autonomous vehicles (AVs)** and the emergence of **autonomous taxi services** have the potential to transform urban mobility. However, public concerns about **AV safety** remain a major barrier to widespread adoption. While extensive AV testing has been conducted in controlled environments, **real-world accident data** is essential for understanding safety risks and improving public trust.  
+
+The selected database, part of a project by **Su Yiming (project lead)**, **Jiao Junfeng**, and **Chen Yu**, published on **Zenodo**, presents detailed accident data for autonomous vehicles (**Levels 3, 4, and 4.5**). It includes a comprehensive dataset of AV-related accidents in **California**, covering all reported incidents involving autonomous vehicles between **January 1, 2019**, and **December 31, 2024**, totaling **646 records**. The dataset integrates information from the **California DMV accident reports**, **geographic coordinates** derived using **GIS tools**, and **semantic data** extracted with **large language models (LLMs)**. This **tabular dataset** supports a wide range of applications, including analyzing AV accident patterns, identifying contributing factors, assessing risks, refining safety algorithms, developing regulatory policies, and planning urban infrastructure.  
+
+The original database contained **195 variables**, but not all were necessary for our research. Some were redundant, irrelevant, or added unnecessary noise. Therefore, we reduced the dataset to **57 key variables**, focusing only on the most relevant ones to ensure a more targeted, efficient, and high-quality analysis.  
+
+After refining the dataset, we uploaded the **CSV file** to **ChatGPT** to obtain an initial overview of emerging trends and insights. Next, we proceeded to analyze the data using **Python**, chosen for its leading role in modern data analysis. Python provides advanced libraries such as **Pandas** and **NumPy** for data processing, and **Matplotlib** and **Seaborn** for visualization. These tools enabled us to perform complex analyses, identify trends, and generate insights far more efficiently than manual tools like **Excel**.  
+
+Using code also allowed for **systematic documentation** of every step — from **data cleaning** to **building statistical models**. The reproducibility of code ensured consistent results, improving the **reliability** of our analysis and preventing manual errors.  
+
+We managed the code through **GitHub**, a **version control** and **collaborative platform**. GitHub enabled all team members to work on different parts of the project simultaneously while maintaining synchronization and full transparency. It also provides **version history**, allowing us to revert changes if necessary, and **automatic cloud backups** for all code.  
+
+The combination of **Python** and **GitHub** provided a major advantage: powerful and efficient analytical capabilities alongside a **professional, collaborative work environment**. This approach allowed us to perform the required analyses **reliably, transparently, and accurately**, maintaining high standards of **research quality**.
+

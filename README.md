@@ -110,3 +110,42 @@ The system is particularly relevant for three key scenarios: driving during high
 
 **3. Nir Kahan – Vehicle designer** with 25 years of experience, lives in central Israel.
 
+### Insights from Users and Their Current Experience
+
+During interviews with the three users, we gathered important insights on their motivation, goals, behavior, knowledge, and current experience with autonomous vehicles or driving alongside them.
+
+**Erez Or**, as a Level 2 autonomous vehicle owner, expressed clear motivation to integrate the new technology into his daily routine, mainly due to the convenience it provides at intersections and during late-night driving after work. His main goal is to reduce driving effort and enjoy higher safety, but he is concerned about sudden interventions or situations where the vehicle "panics" at complex intersections. His knowledge of the technology is limited; he trusts the system but desires greater transparency to understand what is happening "behind the scenes". His current experience is convenient but accompanied by insecurity in certain situations.
+
+**Ido Ravid**, as a private (non-autonomous) vehicle driver, is primarily motivated by the need to reach work on time and maintain safety in busy urban roads. His goal is to drive continuously without dangerous surprises from autonomous vehicles. He describes concern about unexpected maneuvers by smart vehicles at intersections, especially during early morning commutes when driver alertness is relatively low. His behavior is characterized by extra caution at intersections and trying to "read" the behavior of surrounding vehicles. His knowledge of autonomous vehicles is limited to media exposure or superficial familiarity, and he has no direct experience using the system. His current experience is marked by distrust of autonomous vehicles and a feeling of lack of control when they are present.
+
+**Nir Kahan**, as an experienced vehicle designer, approaches the topic from a professional perspective. His motivation is to improve the reliability of autonomous vehicles and integrate them into the market in a way that ensures safety and convenience for road users. His main goal is to understand how users actually experience the technology to translate it into better design of systems and interfaces. His behavior involves constant evaluation of design and technology trends, looking for potential points of failure in existing interfaces. His knowledge is extensive, both technologically and from a design perspective. His current experience with autonomous vehicles is mainly professional, but he points out a gap between marketing promises and the actual user experience, particularly regarding transparency and clarity of alerts.
+
+From the three users, a comprehensive picture emerges: users want to integrate autonomous vehicles into their lives but demand transparency, reliability, and a better understanding of system actions. Their current experience ranges from convenience and effort-saving (Erez), distrust and fear of unpredictable behavior (Ido), to professional identification of gaps in design and communication between vehicle and user (Nir).
+
+### Competitive Analysis
+
+In examining the current market, there are no commercial systems identical to the proposed solution – a three-state system in autonomous vehicles that performs a gradual transition between full autonomous driving, adaptive mode, and mandatory human control. However, there are several indirect competitors operating in related areas.
+
+A key indirect competitor is **ADAS (Advanced Driver Assistance Systems)**, currently available in smart vehicles ([Wikipedia](https://en.wikipedia.org/wiki/Advanced_driver-assistance_system)). These systems provide alerts for lane departure, pedestrian detection, automatic braking, and driver fatigue warnings. Their advantage is that they are already widely implemented in the market, but their limitation is that they are not specifically tailored for autonomous vehicles and do not focus on risk-level-based adaptive alerts.
+
+Additionally, autonomous vehicle manufacturers such as **Tesla**, **Waymo**, and **Cruise** integrate various safety mechanisms, such as requiring the driver to keep hands on the wheel or stopping the vehicle if no response is detected. However, existing approaches primarily focus on driver monitoring rather than intelligent integration of external risk data – including time of day, intersections, and accident hotspots. This is where our solution has an advantage, combining environmental behavior with driver involvement.
+
+Other indirect competitors include external applications like **Waze**, which provide reports on accidents and risk hotspots. Nonetheless, these applications only offer informational alerts and are not directly connected to the vehicle control systems, so they cannot reduce speed or require the driver to take control.
+
+In summary, our solution offers a clear relative advantage by combining real-time driving risk monitoring with dynamic management of driver control. This directly addresses the problem of accidents in high-risk situations – a niche currently underserved by competitors.
+
+## Solution Including Prototype for the Identified Problem
+
+Following our research, our proposed solution includes a prototype built using the **Base44** platform – a smart system integrated into the display screen of autonomous vehicles, combining visual, auditory, and haptic interfaces ([Prototype Link](https://guardian-drive-e3032e7f.base44.app/)).
+
+In this system, the driver is presented with a navigation map and three clear operational modes according to the level of risk:
+
+- **Mode 1 – Normal:** A simple green visual indicator shows that the vehicle is operating in full autonomous mode.
+- **Mode 2 – Adaptive:** An orange indicator appears along with a short auditory alert, signaling the driver to be more attentive due to potential risks (night hours, accident hotspots, intersections). Haptic feedback is also provided to ensure the driver understands the need for increased alertness.
+- **Mode 3 – Take Control:** A prominent red indicator is displayed, accompanied by a stronger auditory alert and intense vibration (if technology permits). The driver has 15 seconds to respond; otherwise, the vehicle initiates a safe stop procedure.
+- <img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/58701d43-c566-461f-945e-0b300b3e1691" />
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/ce5089be-52bf-4daf-ba88-2eed26abfa3f" />
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/d943c919-2edd-4e67-900c-1d4a79bb1fe2" />
+
+
+
